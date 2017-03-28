@@ -1,0 +1,646 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="mockdraft.css">
+    <script language="javascript" type="text/javascript" src="mockdraft.js"></script>
+    <link rel="shortcut icon" href="logo_nfl.png" />
+</head>
+<body id="body">
+<div id="outter-wrapper">
+  <div id="header">
+    <button onclick="anleitung()" id="anleitungButton">Anleitung</button>
+    <button onclick="druckAnsicht()" id="druckButton">Druckansicht</button>
+  </div>
+  <div id="wrapper">
+    <div id="cards-wrapper">
+
+      <div id="cardDeShoneKizer" class="card inactive">
+        <div class="card-header">DeShone Kizer</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="DeShone Kizer" src="PlayerImages/DeShone Kizer.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Notre Dame</p>
+          <p class="card-height"><b>Height: </b>6'4"</p>
+          <p class="card-weight"><b>Weight: </b>233 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/deshone-kizer?id=2557983"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardDeshaunWatson" class="card inactive">
+        <div class="card-header">Deshaun Watson</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Deshaun Watson" src="PlayerImages/Deshaun Watson.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Clemson </p>
+          <p class="card-height"><b>Height: </b>6'2"</p>
+          <p class="card-weight"><b>Weight: </b>221 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/deshaun-watson?id=2558063"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardMitchTrubisky" class="card inactive">
+        <div class="card-header">Mitch Trubisky</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Mitch Trubisky" src="PlayerImages/Mitch Trubisky.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>North Carolina</p>
+          <p class="card-height"><b>Height: </b>6'2"</p>
+          <p class="card-weight"><b>Weight: </b>222 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/mitch-trubisky?id=2558008"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardPatrickMahomesII" class="card inactive">
+        <div class="card-header">Patrick Mahomes II</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Patrick Mahomes II" src="PlayerImages/Patrick Mahomes II.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Texas Tech</p>
+          <p class="card-height"><b>Height:</b> 6'2"</p>
+          <p class="card-weight"><b>Weight: </b>225 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/patrick-mahomes?id=2558125"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardDavisWebb" class="card inactive">
+        <div class="card-header">Davis Webb</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Davis Webb" src="PlayerImages/Davis Webb.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>California</p>
+          <p class="card-height"><b>Height: </b>6'5"</p>
+          <p class="card-weight"><b>Weight: </b>229 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/davis-webb?id=2557897"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardDalvinCook" class="card inactive">
+        <div class="card-header">Dalvin Cook</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Dalvin Cook" src="PlayerImages/Dalvin Cook.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Florida State</p>
+          <p class="card-height"><b>Height: </b>5'10"</p>
+          <p class="card-weight"><b>Weight: </b>210 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/dalvin-cook?id=2557991"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardLeonardFournette" class="card inactive">
+        <div class="card-header">Leonard Fournette</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Leonard Fournette" src="PlayerImages/Leonard Fournette.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>North Carolina</p>
+          <p class="card-height"><b>Height: </b>6'0"</p>
+          <p class="card-weight"><b>Weight: </b>240 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/leonard-fournette?id=2557973"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardChristianMcCaffrey" class="card inactive">
+        <div class="card-header">Christian McCaffrey</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Christian McCaffrey" src="PlayerImages/Christian McCaffrey.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Stanford</p>
+          <p class="card-height"><b>Height: </b>5'11"</p>
+          <p class="card-weight"><b>Weight: </b>202 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/christian-mccaffrey?id=2557997"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardAlvinKamara" class="card inactive">
+        <div class="card-header">Alvin Kamara</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Alvin Kamara" src="PlayerImages/Alvin Kamara.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Tennessee</p>
+          <p class="card-height"><b>Height: </b>5'10"</p>
+          <p class="card-weight"><b>Weight: </b>214 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/alvin-kamara?id=2558019"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardJoeMixon" class="card inactive">
+        <div class="card-header">Joe Mixon</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Joe Mixon" src="PlayerImages/Joe Mixon.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Oklahoma</p>
+          <p class="card-height"><b>Height: </b>6'1"</p>
+          <p class="card-weight"><b>Weight: </b>226 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/joe-mixon?id=2557976"> Draft Profile </a> </p>
+        </div>
+      </div>
+      <div id="cardSamajePerine" class="card inactive">
+        <div class="card-header">Samaje Perine</div>
+        <div class="card-body">
+          <div class="card-image-wrapper"><img class="card-image" alt="Samaje Perine" src="PlayerImages/Samaje Perine.jpeg"/>
+          </div>
+          <hr>
+          <p class="card-college"><b>College: </b>Oklahoma</p>
+          <p class="card-height"><b>Height: </b>5'11"</p>
+          <p class="card-weight"><b>Weight: </b>233 lbs</p>
+          <p class="card-link"><a target="_blank" href="http://www.nfl.com/draft/2017/profiles/samaje-perine?id=2558138"> Draft Profile </a> </p>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div id="left-column">
+      <div id="offense-header">
+        OFFENSE
+      </div>
+      <div class="position-wrapper" id="qbs">
+        <button class="position-header" id="qb-header" onclick="showList('qb-list')">
+          Quarterback
+        </button>
+        <div class="player-list  inactive" id="qb-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player qb" id="qb-1" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('DeShoneKizer')"> DeShone Kizer </span> <div class="delete" onclick="moveBack('qb-list', 'qb-1')">  </div>
+          </div>
+          <div class="player qb" id="qb-2" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('DeshaunWatson')">Deshaun Watson</span><div class="delete" onclick="moveBack('qb-list', 'qb-2')">  </div>
+          </div>
+          <div class="player qb" id="qb-3" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('MitchTrubisky')">Mitch Trubisky</span><div class="delete" onclick="moveBack('qb-list', 'qb-3')">  </div>
+          </div>
+          <div class="player qb" id="qb-4" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('PatrickMahomesII')">Patrick Mahomes II</span><div class="delete" onclick="moveBack('qb-list', 'qb-4')">  </div>
+          </div>
+          <div class="player qb" id="qb-5" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('DavisWebb')">Davis Webb</span><div class="delete" onclick="moveBack('qb-list', 'qb-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="rbs">
+        <button class="position-header" id="rb-header" onclick="showList('rb-list')">
+          Running Back
+        </button>
+        <div class="player-list  inactive" id="rb-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player rb" id="rb-1" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('DalvinCook')">Dalvin Cook</span> <div class="delete" onclick="moveBack('rb-list', 'rb-1')">  </div>
+          </div>
+          <div class="player rb" id="rb-2" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('LeonardFournette')">Leonard Fournette</span><div class="delete" onclick="moveBack('rb-list', 'rb-2')">  </div>
+          </div>
+          <div class="player rb" id="rb-3" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('ChristianMcCaffrey')">Christian McCaffrey</span><div class="delete" onclick="moveBack('rb-list', 'rb-3')">  </div>
+          </div>
+          <div class="player rb" id="rb-4" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('AlvinKamara')">Alvin Kamara</span><div class="delete" onclick="moveBack('rb-list', 'rb-4')">  </div>
+          </div>
+          <div class="player rb" id="rb-5" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('JoeMixon')">Joe Mixon</span><div class="delete" onclick="moveBack('rb-list', 'rb-5')">  </div>
+          </div>
+          <div class="player rb" id="rb-6" draggable="true" ondragstart="drag(event)">
+            <span onclick="openCard('SamajePerine')">Samaje Perine</span><div class="delete" onclick="moveBack('rb-list', 'rb-6')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="wrs">
+        <button class="position-header" id="wr-header" onclick="showList('wr-list')">
+          Wide Receiver
+        </button>
+        <div class="player-list  inactive" id="wr-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player wr" id="wr-1" draggable="true" ondragstart="drag(event)">
+            Corey Davis<div class="delete" onclick="moveBack('wr-list', 'wr-1')">  </div>
+          </div>
+          <div class="player wr" id="wr-2" draggable="true" ondragstart="drag(event)">
+            Mike Williams<div class="delete" onclick="moveBack('wr-list', 'wr-2')">  </div>
+          </div>
+          <div class="player wr" id="wr-3" draggable="true" ondragstart="drag(event)">
+            John Ross<div class="delete" onclick="moveBack('wr-list', 'wr-3')">  </div>
+          </div>
+          <div class="player wr" id="wr-4" draggable="true" ondragstart="drag(event)">
+            Cooper Kupp<div class="delete" onclick="moveBack('wr-list', 'wr-4')">  </div>
+          </div>
+          <div class="player wr" id="wr-5" draggable="true" ondragstart="drag(event)">
+            Zay Jones<div class="delete" onclick="moveBack('wr-list', 'wr-5')">  </div>
+          </div>
+          <div class="player wr" id="wr-6" draggable="true" ondragstart="drag(event)">
+            JuJu Smith-Schuster<div class="delete" onclick="moveBack('wr-list', 'wr-6')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="tes">
+        <button class="position-header" id="te-header" onclick="showList('te-list')">
+          Tight End
+        </button>
+        <div class="player-list inactive" id="te-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player te" id="te-1" draggable="true" ondragstart="drag(event)">
+            O.J. Howard <div class="delete" onclick="moveBack('te-list', 'te-1')">  </div>
+          </div>
+          <div class="player te" id="te-2" draggable="true" ondragstart="drag(event)">
+            David Njoku <div class="delete" onclick="moveBack('te-list', 'te-2')">  </div>
+          </div>
+          <div class="player te" id="te-3" draggable="true" ondragstart="drag(event)">
+            Evan Engram <div class="delete" onclick="moveBack('te-list', 'te-3')">  </div>
+          </div>
+          <div class="player te" id="te-4" draggable="true" ondragstart="drag(event)">
+            Jake Butt <div class="delete" onclick="moveBack('te-list', 'te-4')">  </div>
+          </div>
+          <div class="player te" id="te-5" draggable="true" ondragstart="drag(event)">
+            Gerald Everett <div class="delete" onclick="moveBack('te-list', 'te-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="ots">
+        <button class="position-header" id="ot-header" onclick="showList('ot-list')">
+          Offensive Tackle
+        </button>
+        <div class="player-list  inactive" id="ot-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player ot" id="ot-1" draggable="true" ondragstart="drag(event)">
+            Ryan Ramczyk <div class="delete" onclick="moveBack('ot-list', 'ot-1')">  </div>
+          </div>
+          <div class="player ot" id="ot-2" draggable="true" ondragstart="drag(event)">
+            Garett Bolles <div class="delete" onclick="moveBack('ot-list', 'ot-2')">  </div>
+          </div>
+          <div class="player ot" id="ot-3" draggable="true" ondragstart="drag(event)">
+            Antonio Garcia <div class="delete" onclick="moveBack('ot-list', 'ot-3')">  </div>
+          </div>
+          <div class="player ot" id="ot-4" draggable="true" ondragstart="drag(event)">
+            Roderick Johnson <div class="delete" onclick="moveBack('ot-list', 'ot-4')">  </div>
+          </div>
+          <div class="player ot" id="ot-5" draggable="true" ondragstart="drag(event)">
+            Taylor Moton <div class="delete" onclick="moveBack('ot-list', 'ot-5')">  </div>
+          </div>
+          <div class="player ot" id="ot-6" draggable="true" ondragstart="drag(event)">
+            Jermaine Eluemunor <div class="delete" onclick="moveBack('ot-list', 'ot-6')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="ols">
+        <button class="position-header" id="ol-header" onclick="showList('ol-list')">
+          Interior O-Line
+        </button>
+        <div class="player-list  inactive" id="ol-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player ol" id="ol-1" draggable="true" ondragstart="drag(event)">
+            Forrest Lamp <div class="delete" onclick="moveBack('ol-list', 'ol-1')">  </div>
+          </div>
+          <div class="player ol" id="ol-2" draggable="true" ondragstart="drag(event)">
+            Cam Robinson <div class="delete" onclick="moveBack('ol-list', 'ol-2')">  </div>
+          </div>
+          <div class="player ol" id="ol-3" draggable="true" ondragstart="drag(event)">
+            Dan Feeney <div class="delete" onclick="moveBack('ol-list', 'ol-3')">  </div>
+          </div>
+          <div class="player ol" id="ol-4" draggable="true" ondragstart="drag(event)">
+            Ethan Pocic <div class="delete" onclick="moveBack('ol-list', 'ol-4')">  </div>
+          </div>
+          <div class="player ol" id="ol-5" draggable="true" ondragstart="drag(event)">
+            Dion Hawkins <div class="delete" onclick="moveBack('ol-list', 'ol-5)">  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="middle-column">
+      <div id ="left-header">
+        <div>
+          <div id ="header-number" class="float-left">
+          </div>
+          <div id="header-prospect" class="float-left">
+            Prospect
+          </div>
+          <div id="header-team" class="float-left">
+            Team
+          </div>
+        </div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#1</div>
+        <div class="pick" id="pick-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Browns"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#2</div>
+        <div class="pick" id="pick-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="49ers"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#3</div>
+        <div class="pick" id="pick-3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Bears"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#4</div>
+        <div class="pick" id="pick-4" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input  value="Jaguars"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#5</div>
+        <div class="pick" id="pick-5" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Titans"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#6</div>
+        <div class="pick" id="pick-6" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Jets"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#7</div>
+        <div class="pick" id="pick-7" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Chargers"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#8</div>
+        <div class="pick" id="pick-8" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Panthers"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#9</div>
+        <div class="pick" id="pick-9" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Bengals"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#10</div>
+        <div class="pick" id="pick-10" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Bills"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#11</div>
+        <div class="pick" id="pick-11" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Saints"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#12</div>
+        <div class="pick" id="pick-12" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Browns"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#13</div>
+        <div class="pick" id="pick-13" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Cardinals"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#14</div>
+        <div class="pick" id="pick-14" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Eagles"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#15</div>
+        <div class="pick" id="pick-15" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div ><input value="Colts"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#16</div>
+        <div class="pick" id="pick-16" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Ravens"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#17</div>
+        <div class="pick" id="pick-17" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Redskins"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#18</div>
+        <div class="pick" id="pick-18" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Titans"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#19</div>
+        <div class="pick" id="pick-19" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Bucs"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#20</div>
+        <div class="pick" id="pick-20" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Broncos"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#21</div>
+        <div class="pick" id="pick-21" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Lions"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#22</div>
+        <div class="pick" id="pick-22" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Dolphins"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#23</div>
+        <div class="pick" id="pick-23" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Giants"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#24</div>
+        <div class="pick" id="pick-24" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Raiders"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#25</div>
+        <div class="pick" id="pick-25" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Texans"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#26</div>
+        <div class="pick" id="pick-26" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Seahawks"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#27</div>
+        <div class="pick" id="pick-27" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Chiefs"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#28</div>
+        <div class="pick" id="pick-28" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Cowboys"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#29</div>
+        <div class="pick" id="pick-29" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Packers"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#30</div>
+        <div class="pick" id="pick-30" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Steelers"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#31</div>
+        <div class="pick" id="pick-31" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Falcons"></input></div>
+      </div>
+      <div class="pick-wrapper">
+        <div class="pick-num">#32</div>
+        <div class="pick" id="pick-32" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        <div><input value="Saints"></input></div>
+      </div>
+    </div>
+    <div id="right-column">
+      <div id="defense-header">
+        DEFENSE
+      </div>
+      <div class="position-wrapper" id="dls">
+        <button class="position-header" id="ol-header" onclick="showList('dl-list')">
+          Interior D-Line
+        </button>
+        <div class="player-list  inactive" id="dl-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player dl" id="dl-1" draggable="true" ondragstart="drag(event)">
+            Jonathan Allen <div class="delete" onclick="moveBack('dl-list', 'dl-1')">  </div>
+          </div>
+          <div class="player dl" id="dl-2" draggable="true" ondragstart="drag(event)">
+            Caleb Brantley <div class="delete" onclick="moveBack('dl-list', 'dl-2')">  </div>
+          </div>
+          <div class="player dl" id="dl-3" draggable="true" ondragstart="drag(event)">
+            Malik McDowell <div class="delete" onclick="moveBack('dl-list', 'dl-3')">  </div>
+          </div>
+          <div class="player dl" id="dl-4" draggable="true" ondragstart="drag(event)">
+            Larry Ogunjubi <div class="delete" onclick="moveBack('dl-list', 'dl-4')">  </div>
+          </div>
+          <div class="player dl" id="dl-5" draggable="true" ondragstart="drag(event)">
+            Chris Wormley <div class="delete" onclick="moveBack('dl-list', 'dl-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="edge">
+        <button class="position-header" id="edge-header" onclick="showList('edge-list')">
+          Edge-Rusher
+        </button>
+        <div class="player-list  inactive" id="edge-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player ed" id="ed-1" draggable="true" ondragstart="drag(event)">
+            Myles Garrett <div class="delete" onclick="moveBack('edge-list', 'ed-1')">  </div>
+          </div>
+          <div class="player ed" id="ed-2" draggable="true" ondragstart="drag(event)">
+            Tim Williams <div class="delete" onclick="moveBack('edge-list', 'ed-2')">  </div>
+          </div>
+          <div class="player ed" id="ed-3" draggable="true" ondragstart="drag(event)">
+            Derek Barnett <div class="delete" onclick="moveBack('edge-list', 'ed-3')">  </div>
+          </div>
+          <div class="player ed" id="ed-4" draggable="true" ondragstart="drag(event)">
+            Solomon Thomas <div class="delete" onclick="moveBack('edge-list', 'ed-4')">  </div>
+          </div>
+          <div class="player ed" id="ed-5" draggable="true" ondragstart="drag(event)">
+            Takkarist McKinley <div class="delete" onclick="moveBack('edge-list', 'ed-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="lbs">
+        <button class="position-header" id="lb-header" onclick="showList('lb-list')">
+          Linebacker
+        </button>
+        <div class="player-list  inactive" id="lb-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player lb" id="lb-1" draggable="true" ondragstart="drag(event)">
+            Reuben Foster <div class="delete" onclick="moveBack('lb-list', 'lb-1')">  </div>
+          </div>
+          <div class="player lb" id="lb-2" draggable="true" ondragstart="drag(event)">
+            Haason Reddick <div class="delete" onclick="moveBack('lb-list', 'lb-2')">  </div>
+          </div>
+          <div class="player lb" id="lb-3" draggable="true" ondragstart="drag(event)">
+            Zach Cunningham<div class="delete" onclick="moveBack('lb-list', 'lb-3')">  </div>
+          </div>
+          <div class="player lb" id="lb-4" draggable="true" ondragstart="drag(event)">
+            Jarrad Davis <div class="delete" onclick="moveBack('lb-list', 'lb-4')">  </div>
+          </div>
+          <div class="player lb" id="lb-5" draggable="true" ondragstart="drag(event)">
+            Alex Anzalone <div class="delete" onclick="moveBack('lb-list', 'lb-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="cbs">
+        <button class="position-header" id="cb-header" onclick="showList('cb-list')">
+          Cornerback
+        </button>
+        <div class="player-list  inactive" id="cb-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player cb" id="cb-1" draggable="true" ondragstart="drag(event)">
+            Sidney Jones <div class="delete" onclick="moveBack('cb-list', 'cb-1')">  </div>
+          </div>
+          <div class="player cb" id="cb-2" draggable="true" ondragstart="drag(event)">
+            Marshon Lattimore <div class="delete" onclick="moveBack('cb-list', 'cb-2')">  </div>
+          </div>
+          <div class="player cb" id="cb-3" draggable="true" ondragstart="drag(event)">
+            Marlon Humphrey <div class="delete" onclick="moveBack('cb-list', 'cb-3')">  </div>
+          </div>
+          <div class="player cb" id="cb-4" draggable="true" ondragstart="drag(event)">
+            Teez Tabor <div class="delete" onclick="moveBack('cb-list', 'cb-4')">  </div>
+          </div>
+          <div class="player cb" id="cb-5" draggable="true" ondragstart="drag(event)">
+            Tre'Davious White <div class="delete" onclick="moveBack('cb-list', 'cb-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="ss">
+        <button class="position-header" id="s-header" onclick="showList('s-list')">
+          Safety
+        </button>
+        <div class="player-list  inactive" id="s-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player s" id="s-1" draggable="true" ondragstart="drag(event)">
+            Malik Hooker <div class="delete" onclick="moveBack('s-list', 's-1')">  </div>
+          </div>
+          <div class="player s" id="s-2" draggable="true" ondragstart="drag(event)">
+            Jamal Adams <div class="delete" onclick="moveBack('s-list', 's-2')">  </div>
+          </div>
+          <div class="player s" id="s-3" draggable="true" ondragstart="drag(event)">
+            Jabrill Peppers <div class="delete" onclick="moveBack('s-list', 's-3')">  </div>
+          </div>
+          <div class="player s" id="s-4" draggable="true" ondragstart="drag(event)">
+            Budda Baker <div class="delete" onclick="moveBack('s-list', 's-4')">  </div>
+          </div>
+          <div class="player s" id="s-1" draggable="true" ondragstart="drag(event)">
+            Obi Melinfonwu <div class="delete" onclick="moveBack('s-list', 's-5')">  </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-wrapper" id="sts">
+        <button class="position-header" id="st-header" onclick="showList('st-list')">
+          Special Teamers
+        </button>
+        <div class="player-list  inactive" id="st-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="player st" id="st-1" draggable="true" ondragstart="drag(event)">
+            Adoree' Jackson <div class="delete" onclick="moveBack('st-list', 'st-1')">  </div>
+          </div>
+          <div class="player cb" id="cb-2" draggable="true" ondragstart="drag(event)">
+            Curtis Samuel <div class="delete" onclick="moveBack('st-list', 'st-2')">  </div>
+          </div>
+          <div class="player cb" id="cb-3" draggable="true" ondragstart="drag(event)">
+            Chidobe Awuzie <div class="delete" onclick="moveBack('st-list', 'st-3')">  </div>
+          </div>
+          <div class="player cb" id="cb-4" draggable="true" ondragstart="drag(event)">
+            Desmond King <div class="delete" onclick="moveBack('st-list', 'st-4')">  </div>
+          </div>
+          <div class="player cb" id="cb-5" draggable="true" ondragstart="drag(event)">
+            Adam Shaheen <div class="delete" onclick="moveBack('st-list', 'st-5')">  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="roundCounter" class="inactive"></div>
+</div>
+</body>
+</html>
